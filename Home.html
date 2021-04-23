@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div class="wrapper">
+        <div class="sidebar ">
+
+            <ul>
+
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-user"></i></a></li>
+                <li><a href="#"><i class="fas fa-address-card"></i></a></li>
+                <li><a href="#"><i class="fab fa-windows"></i></a></li>
+                <li><a href="#"><i class="far fa-bell"></i></a></li>
+                <li><a href="#"><i class="far fa-question-circle"></i></a></li>
+            </ul>
+
+        </div>
+        <div class="main_content">
+            <div class="header">SHAHI
+                <span class="setting">
+                    <i class="fas fa-cog"></i>
+                    <i class="fas fa-user-circle"></i>
+                </span>
+            </div>
+
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 offset-1 box1">
+                            <br>
+                            <i class="fas fa-file-medical"></i><br>
+                            <button class="btn1"></i>Case Upload</button>
+                        </div>
+                        <div class="col-md-3  box2">
+                            <br>
+                            <i class="fas fa-file-alt"></i>
+                            <br>
+                            <button class="btn2">Generate Report</button>
+                        </div>
+                        <div class="col-md-3 box3">
+                            <br>
+                            <i class="far fa-envelope-open"></i>
+                            <br>
+                            <button class="btn3">Broadcast Message</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-content">
+                    <div class="col-12">
+
+                        <div class="table-responsive">
+                            <table class="table table-content">
+                                <thead class="thead-light">
+                                    <tr class="border">
+                                        <a href="#">NEW/UNREAD CASES</a>
+
+                                        OUTSTANDING AND CLOSED CASES
+                                    </tr>
+                                    <tr>
+                                        <th>CASE NO <i class="fas fa-sort-down"></i></th>
+                                        <th>BRANCH <i class="fas fa-sort-down"></i></th>
+                                        <th>REPORTING METHOD <i class="fas fa-sort-down"></i></th>
+                                        <th>DATE <i class="fas fa-sort-down"></i></th>
+                                        <th>TIME <i class="fas fa-sort-down"></i></th>
+                                        <th>CATREGORY <i class="fas fa-sort-down"></i></th>
+                                        <th>SUB CATREGORY <i class="fas fa-sort-down"></i></th>
+                                        <th>PRIORITY <i class="fas fa-sort-down"></i></th>
+                                        <th>NATURE <i class="fas fa-sort-down"></i></th>
+                                        <th>CASR MANAGER <i class="fas fa-sort-down"></i></th>
+                                        <th>CASE REPORTER <i class="fas fa-sort-down"></i></th>
+                                        <th>CASE STATUS <i class="fas fa-sort-down"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1900013</th>
+                                        <td>Branch 3</td>
+                                        <td>In Person</td>
+                                        <td>12-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            
+                                              Grievance <i class="fas fa-sort-down"></i>
+                                              
+                                        </td>
+                                        <td>
+                                            Complaints  <i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown">
+                                                <option value="low" selected>Low</option>
+                                                <i class="fas fa-sort-down"></i>
+                                                <option value="high">High</option>
+                                                <option value="high">Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                                Health <i class="fas fa-sort-down"></i>
+                                               
+                                        </td>
+                                        <td>
+                                                Daryl <i class="fas fa-sort-down"></i>
+
+                                            </select></td>
+                                        <td>Tanner </td>
+                                        <td><i class="fas fa-circle circle"></i>Not Prepared </td>
+
+                                    </tr>
+                                    <tr>
+                                        <th>1900014</th>
+                                        <td>Branch 2</td>
+                                        <td>Call</td>
+                                        <td>15-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            Grievance<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Query<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown1">
+                                                <option value="low">Low</option>
+                                                <option value="high">High</option>
+                                                <option value="medium" selected>Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Transport<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Titus<i class="fas fa-sort-down"></i></td>
+                                        <td>Clinton</td>
+                                        <td ><i class="fas fa-circle circle1" ></i>Progress</td>
+                                    </tr>
+                                    <tr>
+                                        <th>1900015</th>
+                                        <td>Branch 3</td>
+                                        <td>In Person</td>
+                                        <td>17-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            
+                                                Employment <i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           Complaints <i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td> <select name="priority" id="priority" class="dropdown2">
+                                                <option value="low">Low </option>
+                                                <option value="high" selected ><i class="fas fa-sort-down"></i>High</option>
+                                                <option value="medium">Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                                Health<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                               Alfonzo<i class="fas fa-sort-down"></i>
+
+                                           </td>
+                                        <td>Tanner</td>
+                                        <td><i class="fas fa-circle circle" ></i>Not Prepared</td>
+                                    </tr>
+                                    <tr>
+                                        <th>1900016</th>
+                                        <td>Branch 2</td>
+                                        <td>Call</td>
+                                        <td>19-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            Grievance<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Query<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown1">
+                                                <option value="low">Low</option>
+                                                <option value="high">High</option>
+                                                <option value="medium" selected>Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Health<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Leif<i class="fas fa-sort-down"></i></td>
+                                        <td>Clinton</td>
+                                        <td ><i class="fas fa-circle circle1" ></i>Progress</td>
+          
+                                    </tr>
+                                    <tr>
+                                        <th>1900017</th>
+                                        <td>Branch 3</td>
+                                        <td>In Person</td>
+                                        <td>20-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            Grievance<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Complaints<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown2">
+                                                <option value="low">Low</option>
+                                                <option value="high" selected>High</option>
+                                                <option value="medium" >Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Transport<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Geoffrey<i class="fas fa-sort-down"></i></td>
+                                        <td>Tanner</td>
+                                        <td ><i class="fas fa-circle circle" ></i>Not Prepared</td>
+          
+                                    </tr>
+                                    <tr>
+                                        <th>1900018</th>
+                                        <td>Branch 2</td>
+                                        <td>Call</td>
+                                        <td>23-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            Security<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Query<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown1">
+                                                <option value="low">Low</option>
+                                                <option value="high">High</option>
+                                                <option value="medium" selected>Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Transport<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Elmer<i class="fas fa-sort-down"></i></td>
+                                        <td>Clinton</td>
+                                        <td ><i class="fas fa-circle circle1" ></i>Progress</td>
+          
+                                    </tr>
+                                    <tr>
+                                        <th>1900019</th>
+                                        <td>Branch 3</td>
+                                        <td>In Person</td>
+                                        <td>28-02-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            Grievance<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Complaints<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown2">
+                                                <option value="low">Low</option>
+                                                <option value="high" selected>High</option>
+                                                <option value="medium" >Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Property<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Benny<i class="fas fa-sort-down"></i></td>
+                                        <td>Tanner</td>
+                                        <td ><i class="fas fa-circle circle" ></i>Not Prepared</td>
+          
+                                    </tr>
+                                    <tr>
+                                        <th>1900020</th>
+                                        <td>Branch 2</td>
+                                        <td>Call</td>
+                                        <td>09-03-2021</td>
+                                        <td>12:35:02</td>
+                                        <td>
+                                            General<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>
+                                           
+                                                Query<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td > <select name="priority" id="priority" class="dropdown1">
+                                                <option value="low">Low</option>
+                                                <option value="high">High</option>
+                                                <option value="medium" selected>Medium</option>
+                                            </select></td>
+                                        <td>
+                                            
+                                               Transport<i class="fas fa-sort-down"></i>
+                                        </td>
+                                        <td>Jamel<i class="fas fa-sort-down"></i></td>
+                                        <td>Clinton</td>
+                                        <td ><i class="fas fa-circle circle1" ></i>Progress</td>
+          
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
